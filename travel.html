@@ -1,0 +1,981 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images/icon_cat.png">
+    <title>Travel</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <a href = "#main" id="skip">Skip to Main Content</a>
+    <header>
+        <h1 id="top">Travel</h1>
+    </header>
+    <nav class="nonMobile">
+        <ul>
+            <li class="dropdown">
+                <a class="btn" href="index.html">Pets</a>
+                <ul class="dropdown-content">
+                    <li><a href="index.html#pet1">Bacon Q Dog</a></li>
+                    <li><a href="index.html#pet2">Cheeto</a></li>
+                    <li><a href="index.html#pet3">Milktea</a></li>
+                    <li><a href="index.html#pet4">Jax</a></li>
+                    <li><a href="index.html#pet5">Leo</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a class="btn" id="curpage" href="travel.html">Travel</a>
+                <ul class="dropdown-content">
+                    <li><a href="#loc1">Machu Picchu</a></li>
+                    <li><a href="#loc2">Paris</a></li>
+                    <li><a href="#loc3">Sofia</a></li>
+                    <li><a href="#loc4">San Francisco</a></li>
+                    <li><a href="#loc5">Giza</a></li>
+                    <li><a href="#loc6">Tokyo</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a class="btn" href="recipes.html">Recipes</a>
+                <ul class="dropdown-content">
+                    <li><a href="recipes.html#rec1">Double Chocolate Cookies</a></li>
+                    <li><a href="recipes.html#rec2">Homemade Chicken Tikka Masala</a></li>
+                    <li><a href="recipes.html#rec3">Tomato and Egg</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    
+    <nav class="mobile">
+        <input id="menu__toggle" type="checkbox" />
+        <label class="menu__btn" for="menu__toggle">
+        <span></span>
+        </label>
+
+        <ul class="menu__box">
+        <li><a class="menu__item" href="index.html">Pet</a></li>
+        <li><a class="menu__item" href="travel.html">Travel</a></li>
+        <li><a class="menu__item" href="recipes.html">Recipes</a></li>
+        </ul>
+    </nav>
+
+    <!-- four locations -->
+    <main>
+        <div id="backToTopBtn">
+            <a href="#top">Top</a>
+        </div>
+        <div id="main">
+            <div class="location">
+                <div class="left1">
+                    <h2 id="loc1">Machu Picchu, Peru</h2>
+                        <img width="400" src="images/Travel/Machu_Picchu_gif.gif" alt="Machu Picchu_gif" class="gif-animation">
+
+                        <img width="400" src="images/Travel/machu_picchu_nongif.jpg" alt="Machu Picchu_nongif">
+
+                </div>
+                
+                <div class="right1">
+                    <p>Geographical Location: South America</p>
+                    <p>Machu Picchu is an ancient Incan citadel located in the Andes Mountains of Peru, South America. It is
+                        renowned for its breathtaking beauty, architectural ingenuity, and historical significance. Believed to
+                        have been built in the 15th century during the height of the Inca Empire, Machu Picchu served as a royal
+                        estate or religious retreat for the Incan ruler Pachacuti.</p>
+        
+                    <p>Machu Picchu's remote location and mysterious abandonment in the decades following its construction have
+                        contributed to its status as a UNESCO World Heritage Site and one of the New Seven Wonders of the World.
+                        The site is characterized by its well-preserved stone structures, including temples, plazas, residential
+                        buildings, and intricate terraces carved into the mountainside. The precise construction methods used to
+                        build Machu Picchu without the use of mortar have puzzled archaeologists for decades. The entire complex
+                        is surrounded by stunning panoramic views of the surrounding valleys and mountains.</p>
+                </div>
+                
+                <div class="left3">
+                    <h3>Photo Gallery</h3>
+
+                    <div class="noGallery">
+                        <figure class="snip1206 sub left_photo"  tabindex="0">
+                            <img width="200" src="images/Travel/machu_picchu_summer.jpg" alt="Summer view">
+                            <figcaption>
+                                <p>Summer view</p>
+                            </figcaption>
+                        </figure>
+                        <p class="right_photo">A view of Machu Picchu with flowers and greenery in the foreground. Huayna Picchu is visible in the
+                            background.</p>
+                            
+                        <figure class="snip1206 sub left_photo"  tabindex="0">
+                            <img class="left_photo" width="200" src="images/Travel/machu_picchu_couldy.jpg" alt="Cloudy Machu Picchu">
+                            <figcaption>
+                                <p>Cloudy Machu Picchu</p>
+                            </figcaption>
+                        </figure>
+                        <p class="right_photo">A dark and moody view of the Machu Picchu ruins on a cloudy day. The Inca terraces are covered in bright
+                            green grass and the Huayna Picchu Mountain looms in the background.</p>
+        
+                        <figure class="snip1206 sub left_photo"  tabindex="0">
+                            <img class="left_photo" width="200" src="images/Travel/machu_picchu_llama.jpg" alt="Llama in ruins">
+                            <figcaption>
+                                <p>Llama in ruins</p>
+                            </figcaption>
+                        </figure>
+                        <p class="right_photo">A llama walks around the ruins in a fenced off area. The llama is dark and light colored. The view of
+                            Machu Picchu is cloudy but visible.</p>
+            
+                        <figure class="snip1206 sub left_photo"  tabindex="0">
+                            <img class="left_photo" width="200" src="images/Travel/machu_picchu_foggy.jpg" alt="Foggy day in ruins">
+                            <figcaption>
+                                <p>Foggy day in ruins</p>
+                            </figcaption>
+                        </figure>
+                        <p class="right_photo">A wide shot of the stone architecture and Inca walls leading up to the Guardhouse. The fog is sitting in
+                            the ruins.</p>
+                        
+                        <figure class="snip1206 sub left_photo"  tabindex="0">
+                            <img class="left_photo" width="200" src="images/Travel/machu_picchu_huayna.jpg" alt="Huayna Picchu Mountain">
+                            <figcaption>
+                                <p>Huayna Picchu Mountain</p>
+                            </figcaption>
+                        </figure>
+                        <p class="right_photo">A view of the famous Huayna Picchu Mountain and the ruins atop it. The main ruins of Machu Picchu are
+                            also visible in the lower half of the photo.</p>
+                    </div>
+                    
+                    <div class="gallery">
+                        <div class="row">
+                            
+                            <div class="pic-gallery">
+                                <div class="parent">
+                                    <div class="wrapper peru-1">
+                                        <div class="content">
+                                            <div class="img"></div>
+                                            <div class="text">
+                                                <div class="line title"><p>Summer view</p></div>
+                                                <div class="line subtitle">A view of Machu Picchu with flowers and greenery in the foreground. Huayna Picchu is visible in the
+                                                    background.</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    
+                            <div class="pic-gallery">
+                                <div class="parent">
+                                    <div class="wrapper peru-2">
+                                        <div class="content">
+                                            <div class="img"></div>
+                                            <div class="text">
+                                                <div class="line title"><p>Cloudy Machu Picchu</p></div>
+                                                <div class="line subtitle">A dark and moody view of the Machu Picchu ruins on a cloudy day. The Inca terraces are covered in bright
+                                                    green grass and the Huayna Picchu Mountain looms in the background.</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    
+                            <div class="pic-gallery">
+                                <div class="parent">
+                                    <div class="wrapper peru-3">
+                                        <div class="content">
+                                            <div class="img"></div>
+                                            <div class="text">
+                                                <div class="line title"><p>Llama in ruins</p></div>
+                                                <div class="line subtitle">A llama walks around the ruins in a fenced off area. The llama is dark and light colored. The view of
+                                                    Machu Picchu is cloudy but visible.</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="pic-gallery">
+                                <div class="parent">
+                                    <div class="wrapper peru-4">
+                                        <div class="content">
+                                            <div class="img"></div>
+                                            <div class="text">
+                                                <div class="line title"><p>Foggy day in ruins</p></div>
+                                                <div class="line subtitle">A wide shot of the stone architecture and Inca walls leading up to the Guardhouse. The fog is sitting in
+                                                    the ruins.</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="pic-gallery">
+                                <div class="parent">
+                                    <div class="wrapper peru-5">
+                                        <div class="content">
+                                            <div class="img"></div>
+                                            <div class="text">
+                                                <div class="line title"><p>Huayna Picchu Mountain</p></div>
+                                                <div class="line subtitle">A view of the famous Huayna Picchu Mountain and the ruins atop it. The main ruins of Machu Picchu are
+                                                    also visible in the lower half of the photo.</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+        
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+    
+            <div class="location">
+                <div class="left1">
+                    <h2 id="loc2">Paris, France</h2>
+                        <img width="400" src="images/Travel/paris_La_Tour_Eiffel.gif" alt="paris_La_Tour_Eiffel_gif" class="gif-animation">
+
+                        <img width="400" src="images/Travel/paris_nonjif_correct2.png" alt="paris_La_Tour_Eiffel_nongif">
+                </div>
+
+                <div class="right1">   
+                    <p>Geographical Location: Europe</p>
+    
+                    <p>Paris is one of the oldest cities in Europe and the city of romance. With a vast amount of cultural
+                        history, lined with iconic landmarks, intimate scenes, and world-renowned art museums.</p>
+        
+                    <p>Paris welcomes millions of visitors annually, each drawn to its exquisite charm and beautiful ambiance.
+                        Enjoy tasty treats and exquisite cuisine await, while city landmarks illuminate the night sky.</p>
+                </div>
+               
+                
+                <div class="left3">
+                    <h3>Photo Gallery</h3>
+
+                    <div class="noGallery">
+                        <figure class="snip1206 sub left_photo"  tabindex="0">
+                            <img class="left_photo" width="200" src="images/Travel/paris_champs_elysees.jpg" alt="Champs Elysées">
+                            <figcaption>
+                                <p>Champs Elysées</p>
+                            </figcaption>
+                        </figure>
+                        <p class="right_photo">Champs Elysées, on a street, slightly cloudy in Paris, France</p>
+                        
+                        <figure class="snip1206 sub left_photo"  tabindex="0">
+                            <img class="left_photo" width="200" src="images/Travel/paris_eiffel_tower.jpeg" alt="Eiffel tower">
+                            <figcaption>
+                                <p>Eiffel tower</p>
+                            </figcaption>
+                        </figure>
+                        <p class="right_photo">Eiffel tower in front of a clear blue sky, taller structure in Paris, France</p>
+                        
+                        <figure class="snip1206 sub left_photo"  tabindex="0">
+                            <img class="left_photo" width="200" src="images/Travel/paris_notre_dame.jpg" alt="Notre Dame Cathedral">
+                            <figcaption>
+                                <p>Notre Dame Cathedral</p>
+                            </figcaption>
+                        </figure>
+                        <p class="right_photo">Notre Dame Cathedral with people viewing it in front of a lightly cloudy sky in Paris, France</p>
+                        
+                        <figure class="snip1206 sub left_photo"  tabindex="0">
+                            <img class="left_photo" width="200" src="images/Travel/paris_louvre_gallery.jpg" alt="Pairs Louvre">
+                            <figcaption>
+                                <p>Pairs Louvre</p>
+                            </figcaption>
+                        </figure>
+                        <p class="right_photo">The Louvre Museum lit up in the night in Paris, France</p>
+                        
+                        <figure class="snip1206 sub left_photo"  tabindex="0">
+                            <img class="left_photo" width="200" src="images/Travel/paris_palace_of_versailles.jpg" alt="Palace of Versailles">
+                            <figcaption>
+                                <p>Palace of Versailles</p>
+                            </figcaption>
+                        </figure>
+                        <p class="right_photo">Palace of Versailles with gardens in front of it on a lightly cloudy day in Paris, France</p>
+                    </div>
+
+                    <div class="gallery">
+                        <div class="row">
+                            
+                            <div class="pic-gallery">
+                                <div class="parent">
+                                    <div class="wrapper paris-1">
+                                        <div class="content">
+                                            <div class="img"></div>
+                                            <div class="text">
+                                                <div class="line title"><p>Champs Elysées</p></div>
+                                                <div class="line subtitle">Champs Elysées, on a street, slightly cloudy in Paris, France</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    
+                            <div class="pic-gallery">
+                                <div class="parent">
+                                    <div class="wrapper paris-2">
+                                        <div class="content">
+                                            <div class="img"></div>
+                                            <div class="text">
+                                                <div class="line title"><p>Eiffel tower</p></div>
+                                                <div class="line subtitle">Eiffel tower in front of a clear blue sky, taller structure in Paris, France</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    
+                            <div class="pic-gallery">
+                                <div class="parent">
+                                    <div class="wrapper paris-3">
+                                        <div class="content">
+                                            <div class="img"></div>
+                                            <div class="text">
+                                                <div class="line title"><p>Notre Dame Cathedral</p></div>
+                                                <div class="line subtitle">Notre Dame Cathedral with people viewing it in front of a lightly cloudy sky in Paris, France</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="pic-gallery">
+                                <div class="parent">
+                                    <div class="wrapper paris-4">
+                                        <div class="content">
+                                            <div class="img"></div>
+                                            <div class="text">
+                                                <div class="line title"><p>Pairs Louvre</p></div>
+                                                <div class="line subtitle">The Louvre Museum lit up in the night in Paris, France</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="pic-gallery">
+                                <div class="parent">
+                                    <div class="wrapper paris-5">
+                                        <div class="content">
+                                            <div class="img"></div>
+                                            <div class="text">
+                                                <div class="line title"><p>Palace of Versailles</p></div>
+                                                <div class="line subtitle">Palace of Versailles with gardens in front of it on a lightly cloudy day in Paris, France</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+        
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+    
+            <div class="location">
+                <div class="left1">
+                    <h2 id="loc3">Sofia, Bulgaria</h2>
+                        <img width="400" src="images/Travel/Sofia_Bulgaria.gif" alt="Sofia_Bulgaria_gif" class="gif-animation">
+
+                        <img width="400" src="images/Travel/Sofia_Bulgaria.png" alt="Sofia_Bulgaria_nongif">
+
+    
+                </div>
+                
+                <div class="right1">
+                    <p>Geographical Location: Europe</p>
+    
+                    <p>Sofia is the capital city of Bulgaria, a country located in Eastern Europe. It is part of the European
+                        Union and the primary language spoken is Bulgarian. The city's population is around 1.3 million. In
+                        addition to its urban structures, Sofia also contains a mountain peak called “Vitosha”. </p>
+        
+                    <p>Vitosha is located 30 minutes from the capital's center, and can be reached by foot, car, and by lift.
+                        The peak has an elevation of 7,520 feet and during the summer months the average temperature is around
+                        64 degrees fahrenheit. This makes it a great sight for any type of traveler who seeks the outdoors.</p>
+                </div>
+                
+                <div class="left3">
+                    <h3>Photo Gallery</h3>
+                    
+                    <div class="noGallery">
+                        <figure class="snip1206 sub left_photo"  tabindex="0">
+                            <img class="left_photo" width="200" src="images/Travel/sofia_cathedral.jpeg" alt="Sofia's grand architecture">
+                            <figcaption>
+                                <p>Sofia's grand architecture</p>
+                            </figcaption>
+                        </figure>
+                        <p class="right_photo">Located in the city's center, St. Alexander Nevsky Cathedral displays some of Sofia's grand architecture.
+                        </p>
+                        
+                        <figure class="snip1206 sub left_photo"  tabindex="0">
+                            <img class="left_photo" width="200" src="images/Travel/sofia_center.jpeg"
+                            alt="A picture of a crowded street with a mountain range in the background">
+                            <figcaption>
+                                <p>A picture of a crowded street with a mountain range in the background</p>
+                            </figcaption>
+                        </figure>
+                        <p class="right_photo">Vitosha boulevard is often packed with both locals and tourists and contains shops, restaurants, live
+                            music, and great views.
+                        </p>
+                        
+                        <figure class="snip1206 sub left_photo"  tabindex="0">
+                            <img class="left_photo" width="200" src="images/Travel/sofia_peak.jpeg"
+                                alt="A view of a city from the peak of a mountain during daytime">
+                            <figcaption>
+                                <p>A view of a city from the peak of a mountain during daytime</p>
+                            </figcaption>
+                        </figure>
+                        <p class="right_photo">The peak of Vitosha mountain offers a great view of Sofia from above.</p>
+            
+                        <figure class="snip1206 sub left_photo"  tabindex="0">
+                            <img class="left_photo" width="200" src="images/Travel/sofia_street.jpeg"
+                            alt="A narrow street during sunset with locals walking and a public tram">
+                            <figcaption>
+                                <p>A narrow street during sunset with locals walking and a public tram</p>
+                            </figcaption>
+                        </figure>   
+                        <p class="right_photo">A picturesque street giving insight into the locals' lives and the city's public transport trams.</p>
+            
+                        <figure class="snip1206 sub left_photo"  tabindex="0">
+                            <img class="left_photo" width="200" src="images/Travel/sofia_brickroad.jpeg"
+                            alt="A city street with yellow bricks and some locals walking">
+                            <figcaption>
+                                <p>A city street with yellow bricks and some locals walking</p>
+                            </figcaption>
+                        </figure>
+                        <p class="right_photo">One of Sofia's famous roads, this street is paved with an interesting material: yellow cobblestones.
+                            Being one of the first streets in the entire city, it was first paved in 1907 and continues to be
+                            maintained to this day.</p>
+                    </div>
+
+                    <div class="gallery">
+                        <div class="row">
+                            
+                            <div class="pic-gallery">
+                                <div class="parent">
+                                    <div class="wrapper sofia-1">
+                                        <div class="content">
+                                            <div class="img"></div>
+                                            <div class="text">
+                                                <div class="line title"><p>Sofia's grand architecture</p></div>
+                                                <div class="line subtitle">Located in the city's center, St. Alexander Nevsky Cathedral displays some of Sofia's grand architecture.</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    
+                            <div class="pic-gallery">
+                                <div class="parent">
+                                    <div class="wrapper sofia-2">
+                                        <div class="content">
+                                            <div class="img"></div>
+                                            <div class="text">
+                                                <div class="line title"><p>Crowded street with a mountain range in the background</p></div>
+                                                <div class="line subtitle">Vitosha boulevard is often packed with both locals and tourists and contains shops, restaurants, live
+                                                    music, and great views.</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    
+                            <div class="pic-gallery">
+                                <div class="parent">
+                                    <div class="wrapper sofia-3">
+                                        <div class="content">
+                                            <div class="img"></div>
+                                            <div class="text">
+                                                <div class="line title"><p>City from the peak of a mountain during daytime</p></div>
+                                                <div class="line subtitle">The peak of Vitosha mountain offers a great view of Sofia from above.</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="pic-gallery">
+                                <div class="parent">
+                                    <div class="wrapper sofia-4">
+                                        <div class="content">
+                                            <div class="img"></div>
+                                            <div class="text">
+                                                <div class="line title"><p>A narrow street during sunset with locals walking and a public tram</p></div>
+                                                <div class="line subtitle">A picturesque street giving insight into the locals' lives and the city's public transport trams.</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="pic-gallery">
+                                <div class="parent">
+                                    <div class="wrapper sofia-5">
+                                        <div class="content">
+                                            <div class="img"></div>
+                                            <div class="text">
+                                                <div class="line title"><p>A yellow city street</p></div>
+                                                <div class="line subtitle">One of Sofia's famous roads, this street is paved with an interesting material: yellow cobblestones.
+                                                    Being one of the first streets in the entire city, it was first paved in 1907 and continues to be
+                                                    maintained to this day.</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+        
+                        </div>
+                    </div>
+                    
+                </div>
+                
+            </div>
+    
+            <div class="location">
+                <div class="left1">
+                    <h2 id="loc4">San Francisco, California</h2>
+                        <img width="400" src="images/Travel/San_Francisco_bridge.gif" alt="San_Francisco_bridge_gif" class="gif-animation">
+
+                        <img width="400" src="images/Travel/San_Francisco_bridge.jpeg" alt="San_Francisco_bridge_nongif">
+
+        
+                </div>
+                
+                <div class="right1">
+                    <p>Geographical Location: North America</p>
+        
+                    <p>San Francisco is a great location to visit with many landmarks, including the Golden Gate Bridge and
+                        Alcatraz. Located in Northern California, San Francisco is one of the most populated cities in
+                        California with a population of 815,000. The city is also a center of culture and industry. San
+                        Francisco is home to a thriving tech industry.</p>
+        
+                    <p>San Francisco has many trails and parks where you can hike or enjoy a walk. The Presidio is a large park
+                        with hiking trails and paths surrounding the Golden Gate Bridge area. One can see picturesque views of
+                        the bay and its wildlife.</p>
+                </div>
+                
+                    
+                <div class="left3">
+                    <h3>Photo Gallery</h3>
+                    
+                    <div class="noGallery">
+                        <figure class="snip1206 sub left_photo"  tabindex="0">
+                            <img class="left_photo" width="200" src="images/Travel/San_Francisco_Alcatraz.jpeg" alt="Alcatraz island">
+                            <figcaption>
+                                <p>Alcatraz Island</p>
+                            </figcaption>
+                        </figure>
+                        <p class="right_photo">Image of the Alcatraz prison.</p>
+                        
+                        <figure class="snip1206 sub left_photo"  tabindex="0">
+                            <img class="left_photo" width="200" src="images/Travel/San_Francisco_Lombard.jpeg" alt="Lombard Street">
+                            <figcaption>
+                                <p>Lombard Street</p>
+                            </figcaption>
+                        </figure>
+                        <p class="right_photo">Picture of Lombard street in San Francisco.</p>
+            
+                        <figure class="snip1206 sub left_photo"  tabindex="0">
+                            <img class="left_photo" width="200" src="images/Travel/San_Francisco_painted_ladies.jpeg" alt="The Painted Ladies">
+                            <figcaption>
+                                <p>The Painted Ladies</p>
+                            </figcaption>
+                        </figure>
+                        <p class="right_photo">Image of the homes known as the Painted Ladies. A row of colorful homes that are adjacent to a park. They
+                            are known for being in Full House.</p>
+            
+                        <figure class="snip1206 sub left_photo"  tabindex="0">
+                            <img class="left_photo" width="200" src="images/Travel/San_Francisco_palace.jpeg"
+                            alt="The Palace of Fine Arts in San Francisco">
+                            <figcaption>
+                                <p>The Palace of Fine Arts in San Francisco</p>
+                            </figcaption>
+                        </figure>
+                        <p class="right_photo">Image of the Palace of Fine Arts in San Francisco, a large structure surrounded by a pleasant park.</p>
+            
+                        <figure class="snip1206 sub left_photo"  tabindex="0">
+                            <img class="left_photo" width="200" src="images/Travel/San_Francisco_street.jpeg" alt="Hill in San Francisco">
+                            <figcaption>
+                                <p>Hill in San Francisco</p>
+                            </figcaption>
+                        </figure>
+                        <p class="right_photo">Steep hill in San Francisco with cars on it.</p>
+                    </div>
+                    <div class="gallery">
+                        <div class="row">
+                            
+                            <div class="pic-gallery">
+                                <div class="parent">
+                                    <div class="wrapper sf-1">
+                                        <div class="content">
+                                            <div class="img"></div>
+                                            <div class="text">
+                                                <div class="line title"><p>Alcatraz Island</p></div>
+                                                <div class="line subtitle">Image of the Alcatraz prison.</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    
+                            <div class="pic-gallery">
+                                <div class="parent">
+                                    <div class="wrapper sf-2">
+                                        <div class="content">
+                                            <div class="img"></div>
+                                            <div class="text">
+                                                <div class="line title"><p>Lombard Street</p></div>
+                                                <div class="line subtitle">Picture of Lombard street in San Francisco.</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    
+                            <div class="pic-gallery">
+                                <div class="parent">
+                                    <div class="wrapper sf-3">
+                                        <div class="content">
+                                            <div class="img"></div>
+                                            <div class="text">
+                                                <div class="line title"><p>The Painted Ladies</p></div>
+                                                <div class="line subtitle">Image of the homes known as the Painted Ladies. A row of colorful homes that are adjacent to a park. They
+                                                    are known for being in Full House.</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="pic-gallery">
+                                <div class="parent">
+                                    <div class="wrapper sf-4">
+                                        <div class="content">
+                                            <div class="img"></div>
+                                            <div class="text">
+                                                <div class="line title"><p>The Palace of Fine Arts in San Francisco</p></div>
+                                                <div class="line subtitle">Image of the Palace of Fine Arts in San Francisco, a large structure surrounded by a pleasant park.</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="pic-gallery">
+                                <div class="parent">
+                                    <div class="wrapper sf-5">
+                                        <div class="content">
+                                            <div class="img"></div>
+                                            <div class="text">
+                                                <div class="line title"><p>Hill in San Francisco</p></div>
+                                                <div class="line subtitle">Steep hill in San Francisco with cars on it.</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+        
+                        </div>
+                    </div>
+                    
+                </div>
+                
+            </div>
+    
+            <div class="location">
+                <div class="left1">
+                    <h2 id="loc5">Giza, Egypt</h2>
+                        <img src="images/Travel/Giza_sunrise.gif" width="400" alt="Giza_sunrise_gif" class="gif-animation">
+
+                        <img src="images/Travel/Giza_main.jpg" width = "400" alt="Giza_main_jpg">
+
+                </div>
+                
+                <div class="righ1">
+                    <p>Geographical Location: Africa</p>
+    
+                    <p>Giza is located on the western bank of the Nile River, and it is a historically and culturally significant city in Egypt. 
+                        It is home to the Great Pyramids and the Sphinx, which are ancient wonders of the world. 
+                        These monuments also raise many questions about how advanced the ancient Egyptians truly were. 
+                        Giza has recently become a bustling city full of tourists and adventurers seeking to see the ancient lure of Egypt.</p>
+        
+                    <p>Giza is a city that is very unique for a lot of reasons. One reason why is the ability to be a vibrant city that also 
+                        is able to blend in its vast historical heritage within its city life . One one side you can see the pyramids , and on the 
+                        other you can see the bustling night life of Egypt. This city is also very close by to the capital of Egypt , which allows 
+                        tourists to not only visit Giza , but they also gain the opportunity of going to the nearby capital and getting any work needed done. </p>
+                </div>
+                
+                <div class="left3">
+                    <h3>Photo Gallery</h3>
+
+                    <div class="noGallery">
+                        <figure class="snip1206 sub left_photo"  tabindex="0">
+                            <img class="left_photo" src = "images/Travel/Giza_sphinx.jpeg" width="200" alt="Sphinx in Egypt">
+                            <figcaption>
+                                <p>Sphinx in Egypt</p>
+                            </figcaption>
+                        </figure>
+                        <p class="right_photo">Picture of the sphinx</p>
+                        
+                        <figure class="snip1206 sub left_photo"  tabindex="0">
+                            <img class="left_photo" src="images/Travel/Giza_nileriver.webp" width="200" alt="Nile River in Giza">
+                            <figcaption>
+                                <p>Nile River in Giza</p>
+                            </figcaption>
+                        </figure>
+                        <p class="right_photo">Picture of the “Nile River along side the sand dunes</p>
+                        
+                        <figure class="snip1206 sub left_photo"  tabindex="0">
+                            <img class="left_photo" src="images/Travel/Giza_city.webp" width="200" alt="Giza city surrounding the pyramid">
+                            <figcaption>
+                                <p>Giza city surrounding the pyramid</p>
+                            </figcaption>
+                        </figure>
+                        <p class="right_photo">Picture of the city surrounding the pyramid</p>
+            
+                        <figure class="snip1206 sub left_photo"  tabindex="0">
+                            <img class="left_photo" src="images/Travel/Giza_Pyramids.jpeg" width="200" alt="Pyramids of Giza">
+                            <figcaption>
+                                <p>Pyramids of Giza</p>
+                            </figcaption>
+                        </figure>
+                        <p class="right_photo">Picture of the main pyramids in Giza</p>
+                        
+                        <figure class="snip1206 sub left_photo"  tabindex="0">
+                            <img class="left_photo" src="images/Travel/Giza_corridor.jpeg" width="200" alt="Corridor inside the pyramid">
+                            <figcaption>
+                                <p>Corridor inside the pyramid</p>
+                            </figcaption>
+                        </figure>
+                        <p class="right_photo"> Picture of a long corridor inside the pyramids</p>
+                    </div>
+                    
+                    <div class="gallery">
+                        <div class="row">
+                            
+                            <div class="pic-gallery">
+                                <div class="parent">
+                                    <div class="wrapper giza-1">
+                                        <div class="content">
+                                            <div class="img"></div>
+                                            <div class="text">
+                                                <div class="line title"><p>Sphinx in Egypt</p></div>
+                                                <div class="line subtitle">Picture of the sphinx</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    
+                            <div class="pic-gallery">
+                                <div class="parent">
+                                    <div class="wrapper giza-2">
+                                        <div class="content">
+                                            <div class="img"></div>
+                                            <div class="text">
+                                                <div class="line title"><p>Nile River in Giza</p></div>
+                                                <div class="line subtitle">Picture of the “Nile River along side the sand dunes</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    
+                            <div class="pic-gallery">
+                                <div class="parent">
+                                    <div class="wrapper giza-3">
+                                        <div class="content">
+                                            <div class="img"></div>
+                                            <div class="text">
+                                                <div class="line title"><p>Giza city surrounding the pyramid</p></div>
+                                                <div class="line subtitle">Picture of the city surrounding the pyramid</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="pic-gallery">
+                                <div class="parent">
+                                    <div class="wrapper giza-4">
+                                        <div class="content">
+                                            <div class="img"></div>
+                                            <div class="text">
+                                                <div class="line title"><p>Pyramids of Giza</p></div>
+                                                <div class="line subtitle">Picture of the main pyramids in Giza</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="pic-gallery">
+                                <div class="parent">
+                                    <div class="wrapper giza-5">
+                                        <div class="content">
+                                            <div class="img"></div>
+                                            <div class="text">
+                                                <div class="line title"><p>Corridor inside the pyramid</p></div>
+                                                <div class="line subtitle">Picture of a long corridor inside the pyramids</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+        
+                        </div>
+                    </div>
+                    
+                   
+                </div>
+                
+            </div>
+    
+            <div class="location">
+                <div class="left1">
+                    <h2 id="loc6">Tokyo, Japan</h2>
+                        <img width="400" src="images/Travel/tokyo_japan.gif" alt="Tokyo_japan" class="gif-animation">
+
+                        <img width="400" src="images/Travel/Tokyo_japan2.jpeg" alt="Tokyo_japan2">
+
+                </div>
+                
+                <div class="right1">
+                    <p>Geographical location:Asia</p>
+    
+                    <p>Tokyo is located on the east side of Japan's Honshu Island. It is the capital of Japan as well as the most populated city, 
+                        home to 14 million people. Tokyo has the largest economy in the world of a city by Gross Domestic Product.</p>
+        
+                    <p>Tokyo is known for being one of the most modern cities in the world. Tokyo is sprawling with high skyscrapers all filled with 
+                        lights and advertisements on the sides along with thousands of people inside of them. Tokyo is also known for historic shrines 
+                        and temples surrounding the city which have been around for centuries. The oldest temple in Tokyo is called the Sensoji at Asakusa.</p>    
+                </div>
+               
+                <div class="left3">
+                    <h3>Photo Gallery</h3>
+                    
+                    <div class="noGallery">
+                        <figure class="snip1206 sub left_photo"  tabindex="0">
+                            <img class="left_photo" width="200" src="images/Travel/mount_fuji.jpeg" alt="Image of mount fuji">
+                            <figcaption>
+                                <p>Image of mount fuji</p>
+                            </figcaption>
+                        </figure>
+                        <p class="right_photo">Located just outside of Tokyo, Mount Fuji is the largest mountain in Japan.</p>
+                        
+                        <figure class="snip1206 sub left_photo"  tabindex="0">
+                            <img class="left_photo" width="200" src="images/Travel/Tsukiji.jpeg" alt="Image of Tsukiji fish market in Tokyo">
+                            <figcaption>
+                                <p>Image of Tsukiji fish market in Tokyo</p>
+                            </figcaption>
+                        </figure>
+                        <p class="right_photo">Tsukiji is the most well known fish market in the world. Located in Tokyo, patrons will arrive at 5 am every morning to purchase fish for the day.</p>
+            
+                        <figure class="snip1206 sub left_photo"  tabindex="0">
+                            <img class="left_photo" width="200" src="images/Travel/sensoji.jpeg" alt="Image of Sensoji temple in Tokyo">
+                            <figcaption>
+                                <p>Image of Sensoji temple in Tokyo</p>
+                            </figcaption>
+                        </figure>
+                        <p class="right_photo">Located in Asakusa, Sensoji is the oldest temple in Tokyo being built in 645 AD.</p>
+                        
+                        <figure class="snip1206 sub left_photo"  tabindex="0">
+                            <img class="left_photo" width="200" src="images/Travel/tokyo_tower.jpeg" alt="Image of tokyo tower">
+                            <figcaption>
+                                <p>Image of tokyo tower</p>
+                            </figcaption>
+                        </figure>
+                        <p class="right_photo">Built in 1958, Tokyo tower has become the most popular landmark in Tokyo. Over 150 million people have visited Tokyo tower since it was first built.</p>
+                        
+                        <figure class="snip1206 sub left_photo"  tabindex="0">
+                            <img class="left_photo" width="200" src="images/Travel/Tokyo_shinjuku_gyoen.jpeg" alt="Image of Shinjuku Gyoen national garden">
+                            <figcaption>
+                                <p>Image of Shinjuku Gyoen national garden</p>
+                            </figcaption>
+                        </figure>
+                        <p class="right_photo">Shinjuku Gyoen is a national garden and is known as one of the most beautiful gardens in the world featuring its cherry blossom trees.</p>
+                    </div>
+
+                    <div class="gallery">
+                        <div class="row">
+                            
+                            <div class="pic-gallery">
+                                <div class="parent">
+                                    <div class="wrapper tokyo-1">
+                                        <div class="content">
+                                            <div class="img"></div>
+                                            <div class="text">
+                                                <div class="line title"><p>Mount Fuji</p></div>
+                                                <div class="line subtitle">Located just outside of Tokyo, Mount Fuji is the largest mountain in Japan.</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    
+                            <div class="pic-gallery">
+                                <div class="parent">
+                                    <div class="wrapper tokyo-2">
+                                        <div class="content">
+                                            <div class="img"></div>
+                                            <div class="text">
+                                                <div class="line title"><p>Tsukiji fish market in Tokyo</p></div>
+                                                <div class="line subtitle">Tsukiji is the most well known fish market in the world. Located in Tokyo, patrons will arrive at 5 am every morning to purchase fish for the day.</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    
+                            <div class="pic-gallery">
+                                <div class="parent">
+                                    <div class="wrapper tokyo-3">
+                                        <div class="content">
+                                            <div class="img"></div>
+                                            <div class="text">
+                                                <div class="line title"><p>Sensoji temple in Tokyo</p></div>
+                                                <div class="line subtitle">Located in Asakusa, Sensoji is the oldest temple in Tokyo being built in 645 AD.</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="pic-gallery">
+                                <div class="parent">
+                                    <div class="wrapper tokyo-4">
+                                        <div class="content">
+                                            <div class="img"></div>
+                                            <div class="text">
+                                                <div class="line title"><p>Tokyo Tower</p></div>
+                                                <div class="line subtitle">Built in 1958, Tokyo tower has become the most popular landmark in Tokyo. Over 150 million people have visited Tokyo tower since it was first built.</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="pic-gallery">
+                                <div class="parent">
+                                    <div class="wrapper tokyo-5">
+                                        <div class="content">
+                                            <div class="img"></div>
+                                            <div class="text">
+                                                <div class="line title"><p>Shinjuku Gyoen national garden</p></div>
+                                                <div class="line subtitle">Shinjuku Gyoen is a national garden and is known as one of the most beautiful gardens in the world featuring its cherry blossom trees.</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+        
+                        </div>
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </div>
+    </main>
+    <script src="js/catFreeze.js"></script>
+</body>
+
+</html>
